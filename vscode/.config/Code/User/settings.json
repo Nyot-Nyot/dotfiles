@@ -1,0 +1,90 @@
+{
+	// --- SETELAN TEMA & AESTETIKA (Dari Dotfiles) ---
+	"workbench.colorTheme": "Aura Dracula Spirit",
+	"editor.fontLigatures": true,
+	"editor.fontSize": 14,
+	"editor.fontFamily": "'Jetbrains Mono'",
+	// --- SETELAN LAYOUT & UI (Dari Setelan Anda) ---
+	"workbench.editor.showTabs": "multiple",
+	"workbench.startupEditor": "none",
+	"editor.minimap.enabled": false,
+	"breadcrumbs.enabled": false,
+	"workbench.tree.indent": 16,
+	"explorer.compactFolders": false,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.confirmDelete": false,
+	"window.customTitleBarVisibility": "never",
+	"window.titleBarStyle": "custom",
+	"workbench.editor.enablePreview": false,
+	"diffEditor.hideUnchangedRegions.enabled": true,
+	"workbench.list.smoothScrolling": true,
+	"editor.smoothScrolling": true,
+	"terminal.integrated.smoothScrolling": true,
+	"editor.stickyScroll.enabled": true,
+	"editor.renderLineHighlight": "gutter",
+	// --- SETELAN FUNGSI EDITOR UMUM ---
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.defaultFormatter": null,
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "explicit"
+	},
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.cursorBlinking": "phase",
+	"editor.renderWhitespace": "trailing",
+	"editor.wordWrap": "on",
+	"editor.tabSize": 2,
+	"editor.minimap.autohide": "none",
+	"editor.suggestSelection": "recentlyUsedByPrefix",
+	"editor.quickSuggestions": {
+		"other": "on",
+		"comments": "off",
+		"strings": "off"
+	},
+	"editor.codeLens": false,
+	"editor.parameterHints.enabled": true,
+	// --- SETELAN SISTEM & KEAMANAN ---
+	"security.workspace.trust.startupPrompt": "always",
+	"security.workspace.trust.untrustedFiles": "open",
+	"files.trimTrailingWhitespace": true,
+	"files.insertFinalNewline": true,
+	"terminal.integrated.enableMultiLinePasteWarning": "never",
+	"git.enableSmartCommit": true,
+	// --- SETELAN PENGECUALIAN FOLDER ---
+	"files.exclude": {
+		"**/.DS_Store": true,
+		"**/.git": true,
+		"**/.vscode": true,
+		"**/build": true,
+		"**/dist": true,
+		"**/node_modules": true,
+		"**/package-lock.json": true,
+		"**/yarn.lock": true
+	},
+	// --- SETELAN BAHASA & EXTENSION KHUSUS ---
+	"javascript.preferences.importModuleSpecifierEnding": "minimal",
+	"typescript.preferences.importModuleSpecifierEnding": "minimal",
+	"typescript.preferences.preferTypeOnlyAutoImports": true,
+	"github.copilot.nextEditSuggestions.enabled": true,
+	"debug.onTaskErrors": "showErrors",
+	"terminal.integrated.defaultProfile.windows": "PowerShell",
+	"notebook.output.textLineLimit": 100,
+	"extensions.ignoreRecommendations": true,
+	"terminal.integrated.gpuAcceleration": "on",
+	"explorer.confirmPasteNative": false,
+	"chat.agent.maxRequests": 50,
+	"git.autofetch": true,
+	"terminal.external.osxExec": "",
+	"github.copilot.chat.agent.autoFix": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"javascript.inlayHints.parameterNames.enabled": "all",
+	"workbench.colorCustomizations": {
+		"editorInlayHint.background": "#00000000", // Membuat background transparan
+		"editorInlayHint.foreground": "#868686" // Memberi warna teks agar tetap terbaca
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"workbench.sideBar.location": "right",
+	"workbench.editor.empty.hint": "hidden"
+}
