@@ -1,0 +1,8 @@
+[user]
+    name = Nyot-Nyot
+    email = dzakisultan012@gmail.com
+[core]
+    editor = vscode
+    whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+[init]
+    defaultBranch = main
