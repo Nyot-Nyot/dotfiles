@@ -86,5 +86,15 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"workbench.sideBar.location": "right",
-	"workbench.editor.empty.hint": "hidden"
+	"workbench.editor.empty.hint": "hidden",
+	"[dart]": {
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.rulers": [
+			80
+		],
+		"editor.selectionHighlight": false,
+		"editor.tabCompletion": "onlySnippets",
+		"editor.wordBasedSuggestions": "off"
+	}
 }
