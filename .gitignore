@@ -1,2 +1,31 @@
 .DS_Store
 *.log
+# === Secrets & local overrides ===
+**/local.fish
+**/*.local
+**/*.secret
+**/.env
+**/.env.*
+!**/.env.example
+**/secrets.fish
+**/secrets/
+
+# === Fish runtime ===
+**/fish_variables
+
+# === Editor swap & backup ===
+*.swp
+*.swo
+*~
+*.bak
+*.backup
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Language runtime ===
+node_modules/
+__pycache__/
+*.pyc
+.venv/
