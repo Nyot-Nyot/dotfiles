@@ -1,0 +1,10 @@
+[extend]
+useDefault = true
+
+[[rules]]
+id = "generic-api-key"
+description = "Override: exclude VS Code keybindings"
+[rules.allowlist]
+paths = [
+    '''vscode/\.config/Code/User/keybindings\.json$'''
+]
