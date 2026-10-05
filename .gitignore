@@ -33,3 +33,4 @@ __pycache__/
 
 # === Micro editor runtime ===
 **/micro/.config/micro/buffers/
+**/micro/.config/micro/bindings.json
