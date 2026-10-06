@@ -46,7 +46,7 @@ layout {
     gaps 10
 
     border {
-        width 2
+        width 1
         active-color   "#7aa2f7"
         inactive-color "#3b4261"
     }
@@ -110,11 +110,11 @@ layer-rule {
 // -----------------------------------------------------------------------------
 // DEBUG (NVIDIA Hybrid)
 // -----------------------------------------------------------------------------
-debug {
-    render-drm-device "/dev/dri/renderD129"
-    wait-for-frame-completion-before-queueing
-    honor-xdg-activation-with-invalid-serial
-}
+// debug {
+//    render-drm-device "/dev/dri/renderD129"
+//    wait-for-frame-completion-before-queueing
+//    honor-xdg-activation-with-invalid-serial
+// }
 
 // -----------------------------------------------------------------------------
 // KEYBINDS
@@ -230,3 +230,6 @@ environment {
     // "ELECTRON_OZONE_PLATFORM_HINT" "auto"
     // "QT_QPA_PLATFORM" "wayland"
 }
+
+
+
