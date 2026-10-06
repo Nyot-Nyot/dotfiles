@@ -233,8 +233,3 @@ File asli selalu aman. Yang berubah cuma symlink di `~/`.
 - [GNU Stow manual](https://www.gnu.org/software/stow/manual/stow.html)
 - [Awesome dotfiles](https://github.com/webpro/awesome-dotfiles)
 
----
-
-## 📝 Lisensi
-
-Personal config. Bebas dipakai sebagai referensi.
